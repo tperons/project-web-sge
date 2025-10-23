@@ -6,7 +6,7 @@ from django.urls import include, path
 from config.views import HealthCheckView
 
 urlpatterns = [
-    path(settings.ADMIN_URL, admin.site.url),
+    path(settings.ADMIN_URL, admin.site.urls),
     # path('', IndexView.as_view(), name='index'),
     path('health/', HealthCheckView.as_view(), name='health_check'),
 ]

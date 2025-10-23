@@ -109,7 +109,6 @@ TEMPLATES = [
                 'django.template.context_processors.static',
                 'django.template.context_processors.tz',
                 'django.contrib.messages.context_processors.messages',
-                'utils.context_processors.setup_context_processor',
             ],
         },
     },
